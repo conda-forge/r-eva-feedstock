@@ -5,11 +5,9 @@ Home: https://github.com/geekman1/eva_package
 
 Package license: GPL (>= 2)
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-eva-feedstock/blob/master/LICENSE.txt)
 
 Summary: Goodness-of-fit tests for selection of r in the r-largest order statistics (GEVr) model. Goodness-of-fit tests for threshold selection in the Generalized Pareto distribution (GPD). Random number generation and density functions for the GEVr distribution. Profile likelihood for return level estimation using the GEVr and Generalized Pareto distributions. P-value adjustments for sequential, multiple testing error control. Non-stationary fitting of GEVr and GPD.
-
-
 
 Current build status
 ====================
