@@ -1,4 +1,4 @@
-{% set version = "0.2.6" %}
+{% set version = "0.2.7" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/eva_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/eva/eva_{{ version }}.tar.gz
-  sha256: c2b8d972a6229bfdcd529576bd5f056c10343eed7b42ee876129f0d51ecfb0ac
+  sha256: c379893f6fdac1b36bd50e930001eed02e153db89afb9c053d984d0d0f3556e9
 
 build:
-  number: 4
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
@@ -38,8 +38,8 @@ test:
 about:
   home: https://github.com/geekman1/eva_package
   license: GPL (>= 2)
-  summary: Goodness-of-fit tests for selection of r in the r-largest order statistics (GEVr) model. Goodness-of-fit tests for threshold selection in the Generalized Pareto distribution (GPD). Random number generation and density functions for the GEVr distribution. Profile likelihood for return level estimation using the
-    GEVr and Generalized Pareto distributions. P-value adjustments for sequential, multiple testing error control. Non-stationary fitting of GEVr and GPD.
+  summary: Goodness-of-fit tests for selection of r in the r-largest order statistics (GEVr) model. Goodness-of-fit tests for threshold selection in the Generalized Pareto distribution (GPD). Random number generation and density functions for the GEVr distribution. Profile likelihood for return level estimation using 
+    the GEVr and Generalized Pareto distributions. P-value adjustments for sequential, multiple testing error control. Non-stationary fitting of GEVr and GPD.
   license_family: GPL3
   license_file: {{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-2
 
